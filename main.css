@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: pink;
+}
+
+a{
+    border: 2px solid transparent;
+    padding: 80px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: blue;
+    background-color: red;
+    border: 2px solid #333;
+}
+
+.btn{
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn:hover{
+    background-color: rgb(39, 179, 179);
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:active{
+    background-color: blueviolet;
+}
+
+input:focus{
+    color: red;
+}
+
+input:checked + label{
+    color: red;
+}
+
+input:enabled{
+    background-color: red;
+}
